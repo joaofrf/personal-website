@@ -59,7 +59,7 @@
             </a>
           </li>
           <li class="list-inline-item">
-            <a class="btn-floating btn-li mx-1 instagram-back">
+            <a href="http://www.instagram.com/itsjoaofrf" target="_blank" class="btn-floating btn-li mx-1 instagram-back">
               <i class="fab fa-instagram"> </i>
             </a>
           </li>
@@ -83,33 +83,7 @@
 <style>
     @import './assets/styles/mycss.css';
 
-    .list-inline-item a{
-      text-align: center;
-      float: left;
-      width: 50px;
-      height: 50px;
-      /*background-color: red;*/
-      border-radius: 100%;
-      margin-right: 7px; /*space between*/
 
-    }
-    .list-inline-item a i{
-      font-size: 20px;
-      line-height: 50px;
-      color: white;
-    }
-
-    .facebook-back{
-      background-color: #4267B2;
-    }
-
-    .linkedin-back{
-      background-color: #2867B2;
-    }
-
-    .instagram-back{
-      background-color: #C13584;
-    }
 
 
 </style>
