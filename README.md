@@ -1,7 +1,7 @@
 # personal-website
 website pessoal www.joaofrf.com
 
-## 🛠 Installation & Set Up
+## 🛠 Preparação e instalação
 
 1. Instalar node
 
@@ -12,10 +12,10 @@ website pessoal www.joaofrf.com
 2. Instalar as dependencias
 
    ```sh
-   npm install --save -g bootstrap jquery popper.js vue vue-router vuex @fortawesome/free-solid-svg-icons @fortawesome/free-regular-svg-icons @fortawesome/free-brands-svg-icons
+   npm install
    ```
 
-## 🚀 Building and Running for Production
+## 🚀 Correr o site
 
 1. Fazer build do projeto (Não é necessário depois do próximo comando)
 
