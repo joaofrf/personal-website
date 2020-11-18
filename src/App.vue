@@ -41,7 +41,6 @@
     <!--  view  -->
     <router-view/>
     <!--  footer-->
-    <!-- Footer -->
     <footer class="page-footer font-small special-color-dark pt-4">
 
       <!-- Footer Elements -->
@@ -50,28 +49,18 @@
         <!-- Social buttons -->
         <ul class="list-unstyled list-inline text-center">
           <li class="list-inline-item">
-            <a class="btn-floating btn-fb mx-1">
+            <a class="btn-floating btn-fb mx-1 facebook-back">
               <i class="fab fa-facebook-f"> </i>
             </a>
           </li>
           <li class="list-inline-item">
-            <a class="btn-floating btn-tw mx-1">
-              <i class="fab fa-twitter"> </i>
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a class="btn-floating btn-gplus mx-1">
-              <i class="fab fa-google-plus-g"> </i>
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a class="btn-floating btn-li mx-1">
+            <a class="btn-floating btn-li mx-1 linkedin-back">
               <i class="fab fa-linkedin-in"> </i>
             </a>
           </li>
           <li class="list-inline-item">
-            <a class="btn-floating btn-dribbble mx-1">
-              <i class="fab fa-dribbble"> </i>
+            <a class="btn-floating btn-li mx-1 instagram-back">
+              <i class="fab fa-instagram"> </i>
             </a>
           </li>
         </ul>
@@ -82,7 +71,7 @@
 
       <!-- Copyright -->
       <div class="footer-copyright text-center py-3">© 2020 Copyright:
-        <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+        <a href="https://www.joaofrf.com/"> www.joaofrf.com</a>
       </div>
       <!-- Copyright -->
 
@@ -93,4 +82,34 @@
 
 <style>
     @import './assets/styles/mycss.css';
+
+    .list-inline-item a{
+      text-align: center;
+      float: left;
+      width: 50px;
+      height: 50px;
+      /*background-color: red;*/
+      border-radius: 100%;
+      margin-right: 7px; /*space between*/
+
+    }
+    .list-inline-item a i{
+      font-size: 20px;
+      line-height: 50px;
+      color: white;
+    }
+
+    .facebook-back{
+      background-color: #4267B2;
+    }
+
+    .linkedin-back{
+      background-color: #2867B2;
+    }
+
+    .instagram-back{
+      background-color: #C13584;
+    }
+
+
 </style>
