@@ -5,11 +5,9 @@ website pessoal www.joaofrf.com
 
 1. Instalar node
 
- ```sh
+   ```sh
    https://nodejs.org/en/ - Versão LTS é recomendada
    ```
-
-
 
 2. Instalar as dependencias
 
