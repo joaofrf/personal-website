@@ -12,7 +12,7 @@ website pessoal www.joaofrf.com
 2. Instalar as dependencias
 
    ```sh
-   npm install --save -g bootstrap jquery popper.js vue vue-router vuex @fortawesome/fontawesome-free vue-fontawesome-icon font-awesome
+   npm install --save -g bootstrap jquery popper.js vue vue-router vuex @fortawesome/free-solid-svg-icons @fortawesome/free-regular-svg-icons @fortawesome/free-brands-svg-icons
    ```
 
 ## 🚀 Building and Running for Production
