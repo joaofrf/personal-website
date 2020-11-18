@@ -4,9 +4,16 @@
       <h1 class="text-white titulo-about">Sobre mim</h1>
       <p class="text-white descricao-about mt-5">Descobre aqui quem sou, de onde sou e por onde andei</p>
     </div>
-    <div class="box">
 
+    <div class="box">
     </div>
+    <div class="sobre-mim-info pt-5">
+      <div class="who-am-i">
+        <h1>Quem sou?</h1>
+        <p>O meu nome é João Ferreira, tenho 22 anos e sou um programador atualmente a viver em leiria.</p>
+      </div>
+    </div>
+
   </div>
 </template>
 
@@ -17,6 +24,7 @@
 }
 
 .titulo-about{
+  font-weight: bold;
   margin-top: 5%;
   font-size: 350%;
 }
@@ -26,11 +34,21 @@
 }
 
 
-.box:after {
-  height: 70%;
+.box {
+  height: 10%;
   content: ' ';
   border-top: 10vh solid #191a1d;
   border-left: 100vw solid white;
-  position: absolute;
 }
+
+.sobre-mim-info{
+  height: 750px;
+  background-color: white;
+}
+
+.who-am-i{
+  display: table;
+  margin: 0 auto;
+}
+
 </style>
