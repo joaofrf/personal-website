@@ -16,7 +16,8 @@
 			<!--	Computer	-->
 			<div class="row d-none d-lg-flex d-xl-none d-xl-flex">
 				<div class="col-xs-6 text-center text-justify text-white">
-					<h1 class="display-4">Olá, sou o João.</h1>
+          <p class="text-left m-auto">Olá, sou o </p>
+					<h1 class="d-flex display-4">João Ferreira.</h1>
 					<p class="mt-2 h3">Um programador natural das Caldas da Rainha.</p>
 				</div>
 				<div class="col-xs-6 text-center ml-5">
@@ -24,10 +25,11 @@
 				</div>
 			</div>
 			<!--	Mobile    -->
-			<div class="row d-block d-sm-block d-md-block d-lg-none">
+			<div class="row d-block d-sm-block d-md-block d-lg-none m-auto">
 				<div class="col-xs-6 text-center text-white">
-					<h1 class="display-4">Olá, sou o João.</h1>
-					<p class="mt-2 h3">Um programador natural das Caldas da Rainha.</p>
+          <p class="m-auto">Olá, sou o </p>
+          <h1 class="display-5">João Ferreira.</h1>
+					<p class="h4">Um programador natural das Caldas da Rainha.</p>
 				</div>
 				<div class="col-xs-6 text-center">
 					<img src="/imgs/eu.jpg" class="photo" alt="Uma foto minha">
