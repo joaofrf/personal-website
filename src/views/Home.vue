@@ -19,6 +19,10 @@
           <p class="text-left m-auto">Olá, sou o </p>
 					<h1 class="d-flex display-4">João Ferreira.</h1>
 					<p class="mt-2 h3">Um programador natural das Caldas da Rainha.</p>
+
+          <p class="text-left ">Sabe mais sobre mim
+            <router-link to="/about"> aqui</router-link>
+          </p>
 				</div>
 				<div class="col-xs-6 text-center ml-5">
 					<img src="/imgs/eu.jpg" class="photo" alt="Uma foto minha">
