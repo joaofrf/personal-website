@@ -20,8 +20,8 @@
 					<h1 class="d-flex display-4">João Ferreira.</h1>
 					<p class="mt-2 h3">Um programador natural das Caldas da Rainha.</p>
 
-          <p class="text-left ">Sabe mais sobre mim
-            <router-link to="/about"> aqui</router-link>
+          <p class="text-left ">Sabe mais
+            <router-link to="/about"> sobre mim</router-link>
           </p>
 				</div>
 				<div class="col-xs-6 text-center ml-5">
@@ -38,6 +38,12 @@
 				<div class="col-xs-6 text-center">
 					<img src="/imgs/eu.jpg" class="photo" alt="Uma foto minha">
 				</div>
+        <div class="col-xs-6 text-center text-white mt-5">
+          <p>Sabe mais
+            <router-link to="/about"> sobre mim</router-link>
+          </p>
+        </div>
+
 			</div>
 		</div>
 	</div>
